@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+<title>Rinterio</title>
 
 <!-- Tailwind & Daisy UI CDN -->
 
@@ -38,16 +38,98 @@ colors: {
 'button-sec': '#ABEF5F80',
 'hero-bg': 'rgb(247, 247, 247)',
 'thoughtful-bg': 'rgb(244, 244, 244)',
-'footer-bg': '#1C1C1C'
+'footer-bg': '#1C1C1C',
 }
 }
 }
 }
 </script>
 </head>
-<body class="manrope">
 
-  <h1 class="text-button-pri">My third assignment</h1>
+
+<body class="manrope">
+<header class="md:container mx-auto py-3.5 bg-[#f4f4f4]">
+<!-- Navbar Starts Here -->
+<nav class="">
+<div class="navbar">
+<div class="navbar-start gap-2">
+<div class="w-8 h-8 rounded-full bg-button-pri p-1 pl-2">
+<i class="-rotate-45 fa-solid fa-arrow-right"></i>
+</div>
+<h3 class="text-3xl font-extrabold text-[#212121]">Rinterio</h3>
+</div>
+<div class="navbar-center hidden lg:flex">
+<ul class="menu menu-horizontal px-1 text-base text-[#737373]">
+<li class="font-extrabold"><a>Home</a></li>
+<li class="hover:button-pri transition-colors duration-300 ease-in-out"><a>Service</a></li>
+<li class="hover:button-pri transition-colors duration-300 ease-in-out"><a>Portfolio</a></li>
+<li class="hover:button-pri transition-colors duration-300 ease-in-out"><a>Blogs</a></li>
+<li class="hover:button-pri transition-colors duration-300 ease-in-out"><a>Contact Us</a></li>
+</ul>
+</div>
+<div class="navbar-end gap-4 ">
+<div class="hidden sm:flex w-8 h-8 rounded-full border border-[rgb(233,233,233)] bg-white p-2 pl-2 ">
+<i class="fa-solid fa-magnifying-glass"></i>
+</div>
+<div class="hidden sm:flex w-8 h-8 rounded-full border border-[rgb(233,233,233)] bg-white p-2 pl-1.5 ">
+<i class="fa-solid fa-cart-shopping"></i>
+</div>
+<a class="hidden sm:flex btn rounded-full bg-button-pri">Book Consult     
+<div class="w-8 h-8 bg-black rounded-full p-1 pl-1 pt-2">
+<i class="text-white -rotate-45 fa-solid fa-arrow-right"></i>
+</div>
+</a>
+
+
+<div class="dropdown">
+<div tabindex="0" role="button" class=" w-6 h-4 rounded-full bg-white border-2 border-slate-200 btn btn-ghost lg:hidden">
+<i class="fa-solid fa-bars"></i>
+</div>
+<ul
+tabindex="0"
+class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-lg font-medium right-0">
+<li><a>Home</a></li>
+<li><a>services</a></li>
+<li><a>Portfolio</a></li>
+<li><a>Blogs</a></li>
+<li><a>Contact Us</a></li>
+<li>
+<ul class="p-2">
+</ul>
+</div>
+</div>
+</div>
+</nav>
+<!-- Navbar Ends Here -->
+<!-- Hero Section Starts Here -->
+<div class="flex flex-col ">
+<div class="flex justify-center p-4">
+<img src="./assets/banner.png" alt="">
+</div>
+<div>
+<div class="hero">
+<div class="hero-content text-center">
+<div class="">
+<h1 class="text-3xl lg:text-6xl font-extrabold sm">A barn house of this design has a <br>striking appearance</h1>
+<br>
+<p class="py-6 text-base font-medium">
+The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br>accents, and large windows that flood the space with natural light.
+</p>
+<button class="btn bg-button-sec rounded-full border-2 border-button-pri text-sm font-bold">View Details 
+<div class="w-8 h-8 rounded-full bg-[#ABEF5F] p-1.5">
+<i class="-rotate-45 fa-solid fa-arrow-right"></i>
+</div>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+  <!-- Hero Section Ends Here -->
+</header>
+<main></main>
+<footer></footer>
+  
 
 </body>
 </html>
